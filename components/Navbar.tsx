@@ -45,6 +45,12 @@ export default function Navbar({ bookTitle }: { bookTitle?: string }) {
           >
             Chat
           </Link>
+          <Link
+            href="/bookshelf"
+            className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            Books
+          </Link>
           <button
             onClick={signOut}
             className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
